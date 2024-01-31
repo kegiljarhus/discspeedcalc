@@ -8,6 +8,8 @@ An example video is provided in the repository, change the path to the actual
 path of the file on your system. This video was taken using a GoPro Hero 10 
 camera with a frame rate of 240 FPS and a shutter speed of 1/3840 s. The
 disc was illuminated from below using two LED panels of 1100 lux.
+The marker type and length needs to be set as parameters. Typically, the
+AprilTag 36h11, scaled to a size of 10 cm, have been found to work well.
 
 @Author: Knut Erik T. Giljarhus <knut.erik.giljarhus@gmail.com>
 @Links: https://github.com/kegiljarhus/disctracker
