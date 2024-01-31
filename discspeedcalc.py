@@ -204,9 +204,9 @@ def calculate_speeds(frames, time_per_frame, nmin=0):
 
 if __name__ == '__main__':
     # Example usage
-    video_path = 'c:/keg/tracking/GX010375.mp4'
+    video_path = 'c:/path/to/example_video.mp4'
     
-    disc_id, frames, time_per_frame = analyze_frames(video_path, output_path='c:/keg/tracking/tracking')
+    disc_id, frames, time_per_frame = analyze_frames(video_path, output_path='c:/path/to/prefix')
     
     if disc_id is not None:
         print(f'Disc ID {disc_id}')
